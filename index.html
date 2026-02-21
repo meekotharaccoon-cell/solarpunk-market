@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SolarPunk Market — Direct Creator-to-Buyer. Zero Platform Cut.</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#0a0a0a;color:#fff;font-family:Georgia,serif;min-height:100vh}
+.top{background:rgba(0,255,136,0.05);border-bottom:1px solid rgba(0,255,136,0.15);padding:14px 24px;display:flex;align-items:center;justify-content:space-between}
+.top .logo{color:#00ff88;font-family:monospace;font-size:1.1rem;font-weight:bold}
+.top .tagline{color:rgba(255,255,255,0.35);font-family:monospace;font-size:.75rem}
+h1{text-align:center;padding:48px 24px 24px;font-size:2rem;font-weight:normal;line-height:1.3}
+h1 span{color:#00ff88}
+.sub{text-align:center;color:rgba(255,255,255,0.4);font-size:.95rem;padding-bottom:40px;max-width:560px;margin:0 auto;line-height:1.7}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:24px;max-width:1100px;margin:0 auto;padding:0 24px 60px}
+.card{background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:14px;overflow:hidden;transition:border-color .2s}
+.card:hover{border-color:rgba(0,255,136,0.3)}
+.card-img{width:100%;aspect-ratio:1;object-fit:cover;background:#111}
+.card-body{padding:20px}
+.card-name{font-size:1.05rem;margin-bottom:6px}
+.card-seller{color:rgba(255,255,255,0.35);font-size:.8rem;font-family:monospace;margin-bottom:10px}
+.card-cause{font-size:.8rem;color:#00ff88;margin-bottom:14px}
+.card-price{font-size:1.3rem;font-weight:bold;margin-bottom:14px}
+.card-price .note{font-size:.7rem;color:rgba(255,255,255,0.3);font-weight:normal;font-family:monospace;display:block;margin-top:2px}
+.buy-btn{display:block;background:linear-gradient(135deg,#00ff88,#00cc66);color:#000;text-align:center;padding:12px;border-radius:8px;text-decoration:none;font-weight:bold;font-family:monospace;font-size:.9rem}
+.section-head{text-align:center;color:rgba(255,255,255,0.25);font-family:monospace;font-size:.7rem;letter-spacing:3px;text-transform:uppercase;padding:40px 0 20px}
+.sell-box{max-width:700px;margin:0 auto 60px;padding:32px;background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.07);border-radius:16px;text-align:center}
+.sell-box h2{font-size:1.4rem;font-weight:normal;margin-bottom:12px}
+.sell-box p{color:rgba(255,255,255,0.4);font-size:.9rem;line-height:1.75;margin-bottom:20px}
+.sell-btn{display:inline-block;border:1px solid rgba(0,255,136,0.4);color:#00ff88;padding:12px 28px;border-radius:8px;text-decoration:none;font-family:monospace;font-size:.85rem}
+.footer{border-top:1px solid rgba(255,255,255,0.05);padding:24px;text-align:center;color:rgba(255,255,255,0.2);font-family:monospace;font-size:.7rem;line-height:2}
+.footer a{color:rgba(0,255,136,0.4);text-decoration:none}
+</style>
+</head>
+<body>
+
+<div class="top">
+  <div class="logo">🌿 SolarPunk Market</div>
+  <div class="tagline">0% platform cut · creator keeps 97.1% · AGPL-3.0</div>
+</div>
+
+<h1>Buy direct. <span>Zero</span> platform tax.</h1>
+<p class="sub">Every seller here keeps 97.1% of every sale — only the 2.9% + $0.30 card network fee is unavoidable. No Etsy cut. No Gumroad cut. No platform cut. Creator to buyer, as direct as it gets.</p>
+
+<div class="section-head">Live Sellers</div>
+
+<div class="grid">
+
+  <!-- GAZA ROSE GALLERY -->
+  <div class="card">
+    <div class="card-img" style="background:linear-gradient(135deg,#1a0a1a,#0a1a0a);display:flex;align-items:center;justify-content:center;font-size:4rem">🌹</div>
+    <div class="card-body">
+      <div class="card-name">Gaza Rose Gallery</div>
+      <div class="card-seller">meeko / digital art</div>
+      <div class="card-cause">70% of every sale → PCRF (Palestine Children's Relief Fund)</div>
+      <div class="card-price">$1 per artwork
+        <span class="note">56 original 300 DPI digital flowers</span>
+      </div>
+      <a href="https://meekotharaccoon-cell.github.io/gaza-rose-gallery" class="buy-btn">→ Visit Gallery</a>
+    </div>
+  </div>
+
+  <!-- PLACEHOLDER -->
+  <div class="card" style="opacity:.4;border-style:dashed">
+    <div class="card-img" style="background:#111;display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,0.15);font-family:monospace;font-size:.8rem">your store here</div>
+    <div class="card-body">
+      <div class="card-name" style="color:rgba(255,255,255,0.3)">Your Name</div>
+      <div class="card-seller">your / category</div>
+      <div class="card-cause">cause you support</div>
+      <div class="card-price" style="color:rgba(255,255,255,0.3)">your price</div>
+      <a href="https://github.com/meekotharaccoon-cell/solarpunk-market/issues/new?template=list-my-store.md" class="buy-btn" style="background:rgba(255,255,255,0.05);color:rgba(255,255,255,0.3)">+ List your store free</a>
+    </div>
+  </div>
+
+</div>
+
+<div class="sell-box">
+  <h2>Sell here. Keep everything.</h2>
+  <p>Open a GitHub Issue with your store link and what you sell. No approval. No fees. No waiting. Your listing goes live as soon as we add it. SolarPunk Market takes 0%. The card network takes 2.9% + $0.30. That's it, forever.</p>
+  <a href="https://github.com/meekotharaccoon-cell/solarpunk-market/issues/new?template=list-my-store.md" class="sell-btn">+ List your store free →</a>
+</div>
+
+<div class="footer">
+  SolarPunk Market · AGPL-3.0 + Ethical Use · <a href="https://github.com/meekotharaccoon-cell/solarpunk-market">fork and run your own</a><br>
+  No ads · No tracking · No corporate backing · No platform tax
+</div>
+
+</body>
+</html>
